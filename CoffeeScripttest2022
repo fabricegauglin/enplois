@@ -1,6 +1,6 @@
 (($) ->
 
-consol.log ='Mon truc'
+consol.log ='Mon animal'
 
 animal = "chien"
 
