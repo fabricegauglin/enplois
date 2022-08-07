@@ -1,0 +1,18 @@
+(($) ->
+
+consol.log ='Mon truc'
+
+animal = "chien"
+
+cri = (type) ->
+  if type is chien then "woof" else "miaou"
+        
+alert cri('chien')
+
+animal2 = "chat"
+
+cri2 = (type) ->
+  if type is chien then "miaou" else "woof"
+        
+alert cri('chat')
+)(jQuery)
